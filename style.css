@@ -1,0 +1,87 @@
+/*--一部省略--*/
+body,
+html {
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* 毎回の授業内容のエリア*/
+.area {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 100px 0;
+    width: 100%;
+
+}
+.area h2 {
+    font-family: "";
+    font-size: 30px;
+    text-align: center;
+}
+
+.childArea {
+    display: flex;
+}
+
+.childArea .curriculum{
+    width:30%;
+    height: auto;
+}
+.childArea .gChildArea{
+    margin: 0 0 0 20px;
+    padding:0;
+    width: auto;;
+    height: auto;
+}
+
+.childArea .gChildArea .text {
+    margin: 20px;
+    text-align:left;
+    font-size: 14px;
+}
+
+.area p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.cd-fixed-bg {
+    position: relative;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+}
+
+/* .curriculum {
+    width:350px;
+    height: auto;
+} */
+ .cd-fixed-bg.cd-bg-1  {
+  background-image: url('figure/背景/教室_桜.jpeg'); 
+}
+.cd-fixed-bg.cd-bg-2  {
+  background-image: url('figure/背景/教室夏空.jpg');
+}
+.cd-fixed-bg.cd-bg-3  {
+  background-image: url('figure/背景/教室_秋.jpeg');
+}
+.cd-fixed-bg.cd-bg-4  {
+  background-image: url('figure/背景/教室冬.gif');
+}
+.cd-fixed-bg.cd-bg-5  {
+  background-image: url('figure/背景/挫折.jpg');
+}
+.cd-fixed-bg.cd-bg-6  {
+  background-image: url('figure/背景/地獄.jpg');
+}
+.cd-fixed-bg.cd-bg-7  {
+  background-image: url('figure/背景/天国.jpg');
+}
+.cd-fixed-bg.cd-bg-8  {
+  background-image: url('figure/背景/天国への階段.jfif');
+}
+
