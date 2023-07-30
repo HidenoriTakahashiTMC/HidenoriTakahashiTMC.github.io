@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--CSSファイルを読み込ませる-->  
+    <link rel="stylesheet" href="gators.css">
+  </head>
+  
+  <body>
+    
+    <div class="box" id="makeImg">   <!-- 1個目の四角 -->
+      <!-- インプット枠 -->
+      <input type="number" id="number" name="name" placeholder="数値を入力" required minlength="4" maxlength="8" size="10">
+          <!--
+            1)typeをnumberにする事で入力を制限、上下で数値のUP/Downが出来る。
+            2)textではなくplaceholderにする事であらかじめ表示しつつ、削除はせずいきなり入力できる。
+          -->
+      <!-- ボタン -->
+      <button class="plusButton"
+      type="button">
+      ワニ放出！
+    </button>
+    
+    </div>   
+  
+    <div class="box" id="makeImg2"></div>   <!--2個目の四角-->
+  
+    <script src="gators.js"></script>       <!--BOXを定義してからしか取得できない-->
+  </body>
+</html>
