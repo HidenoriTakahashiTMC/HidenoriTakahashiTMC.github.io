@@ -70,7 +70,7 @@ html {
   background-image: url('figure/背景/教室_秋.jpeg');
 }
 .cd-fixed-bg.cd-bg-4  {
-  background-image: url('figure/背景/教室冬.gif');
+  background-image: url('figure/背景/教室冬.png');
 }
 .cd-fixed-bg.cd-bg-5  {
   background-image: url('figure/背景/挫折.jpg');
@@ -84,4 +84,7 @@ html {
 .cd-fixed-bg.cd-bg-8  {
   background-image: url('figure/背景/天国への階段.jfif');
 }
-
+.cd-fixed-bg.cd-bg-9  {
+    background-image: url('figure/背景/教室卒業.jpg');
+  }
+  
