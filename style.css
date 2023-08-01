@@ -8,10 +8,16 @@ html {
 .intro {
   display: flex;
 }
-
-.intro .introText{
-  margin: 0 0 0 30px;
+.intro .photo{
+  width:40%;
+  height:auto;
 }
+ 
+.intro .introText{
+  margin: 0 0 0 2px;
+} 
+
+
 .intro .p{
   margin: 30px;
 }
