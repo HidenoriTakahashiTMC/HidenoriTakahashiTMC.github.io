@@ -1,8 +1,19 @@
-/*--一部省略--*/
+/**/
 body,
 html {
   height: 100%;
   margin: 0 auto;
+}
+/*左右に並べる*/
+.intro {
+  display: flex;
+}
+
+.intro .introText{
+  margin: 0 0 0 30px;
+}
+.intro .p{
+  margin: 30px;
 }
 
 /* 毎回の授業内容のエリア*/
@@ -18,7 +29,7 @@ html {
     font-size: 30px;
     text-align: center;
 }
-
+/*左右に並べる*/
 .childArea {
     display: flex;
 }
@@ -38,7 +49,11 @@ html {
     margin: 20px;
     text-align:left;
     font-size: 14px;
-}
+    
+    
+    /* background-color: moccasin; */
+    /* color:white; */
+  }
 
 .area p {
     text-align: center;
